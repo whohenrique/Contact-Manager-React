@@ -1,0 +1,86 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Overpass", sans-serif;
+    font-size: 14px;
+    background-color: #10B786;
+  }
+  
+  .divMain {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 35px 25px 35px;
+    background-color: #DEDEDE;
+  }
+
+.divForm form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 50px 15px 50px;
+}
+
+.divForm label {
+    font-size: 14px; 
+    margin-top: 15px;
+}
+
+.divForm input {
+    padding: 8px 12px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    outline: none; 
+    font-family: "Overpass", sans-serif;
+
+}
+
+.divForm textarea {
+    padding: 8px 12px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    outline: none; 
+    font-family: "Overpass", sans-serif;
+
+}
+
+.divForm select {
+    padding: 8px 12px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    outline: none; 
+    font-family: "Overpass", sans-serif;
+
+}
+
+.divFormButton {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-family: "Overpass", sans-serif;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+  }

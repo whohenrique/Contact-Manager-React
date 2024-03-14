@@ -1,6 +1,13 @@
-export default interface ContactProps {
-    id: any | null;
+export interface Contacts {
+    id: number;
     name: string;
     email: string;
-    phone: string;
+    phone: string | number;
+}
+
+export interface ContactsForm {
+    name: string;
+    email: string;
+    phone: string | number;
+    onClose?: () => void;
 }

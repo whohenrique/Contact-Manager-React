@@ -1,9 +1,13 @@
-import Home from "./pages/Home"
+import Header from "./components/Header";
+import TableContacts from "./components/Table";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
-  )
+    <>
+      <Header />
+      <TableContacts />
+    </>
+  );
 }
+
+export default App;
