@@ -27,6 +27,7 @@ export const ModalContent = styled.div`
 
 export const TitleModal = styled.h2`
     margin-bottom: 40px;
+    color: black;
 `;
 
 export const InputField = styled.input`

@@ -12,7 +12,7 @@ function TableContacts() {
     
     useEffect(() => {
         fetchContacts();
-    }, [contacts]);
+    }, []);
 
     const fetchContacts = async () => {
         try {
@@ -33,7 +33,7 @@ function TableContacts() {
           <th>Actions</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className='table-row'>
         {contacts.map(contact => (
           <Contact key={contact.id} contact={contact} />
         ))}

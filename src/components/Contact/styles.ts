@@ -10,6 +10,7 @@ export const Button = styled.button`
     font-size: 14px;
     border-radius: 4px;
     cursor: pointer;
+    margin: 5px 0px 5px 0px;
 
     &:hover {
         opacity: 0.8;

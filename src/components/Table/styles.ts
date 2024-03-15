@@ -5,17 +5,22 @@ export const Container = styled.main`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 100%;
     gap: 10px;
 
     .table{
       width: 100%;
-      background-color: #f4f4f4;
+      background-color: #f3f3f3;
     }
 
     .table-head {
-      background: gray;
-      height: 30px;
-      color: #f4f4f4;
+      background: #F64348;
+      height: 35px;
+      color: #ffffff;
+    }
+
+    .table-row {
+      background-color: black;
+      color: #ffffff;
     }
 `;

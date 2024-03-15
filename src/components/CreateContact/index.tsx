@@ -28,6 +28,7 @@ const CreateContact: React.FC<ContactFormProps> = ({ onClose }) => {
         setEmail('');
         setPhone('');
         onClose();
+        window.location.reload();
     } catch (error) {
         console.log(error);
     }

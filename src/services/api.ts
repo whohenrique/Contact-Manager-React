@@ -28,9 +28,11 @@ export async function createContacts(item: ContactsForm): Promise<Contacts> {
     }
 }
 
-export async function updateContacts(id: number, item: ContactsForm): Promise<Contacts> {
+export const updateContacts = async (
+    id: number, 
+    {  name, email, phone }: ContactsForm) => {
     try {
-        const response = await API.put(`/${id}`, item);
+        const response = await API.put(`/${id}/`, {name, email, phone});
         return response.data;
     } catch (error) {
         console.error("Erro ao atualizar contato:", error);
